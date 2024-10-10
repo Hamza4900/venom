@@ -10,14 +10,14 @@ load_dotenv()
 API_KEY = getenv("API_KEY", "") 
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "24066716"))
+API_HASH = getenv("API_HASH", "09e30e6e0b1a4c71e43a055979c51b3b")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7607259347:AAF90Z3_RNXo0FqMuUWmulD_EuJ4vYHkNdQ")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 5400))
 
@@ -25,7 +25,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002028213552"))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7048354045"))
@@ -38,7 +38,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venombolteop/VenomMusic",
+    "https://github.com/hamza49490/Venomnimusi",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
