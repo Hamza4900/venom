@@ -14,7 +14,7 @@ API_ID = int(getenv("API_ID", "24066716"))
 API_HASH = getenv("API_HASH", "09e30e6e0b1a4c71e43a055979c51b3b")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7944281902:AAEo4HgCmsKdwx06Ce2STDVl8_ANrTv7oPs")
+BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAGZEJ921cisv5yoUKYP1z7cDdP6t5gRV_s")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
@@ -28,7 +28,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002028213552"))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7048354045"))
+OWNER_ID = int(getenv("OWNER_ID", "7784476491"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VenomOwners")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Venom_Chatz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/konnusanlar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/konnusanlar")
 
 
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "false")
