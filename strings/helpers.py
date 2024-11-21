@@ -3,13 +3,13 @@ HELP_1 = """<b><u>Admin Komutları:</b></u>
 ᴊᴜsᴛ ᴀᴅᴅ <b>ᴄ</b> ɪɴ ᴛʜᴇ sᴛᴀʀᴛɪɴɢ ᴏғ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜsᴇ ᴛʜᴇᴍ ғᴏʀ ᴄʜᴀɴɴᴇʟ.
 
 
-/pause: Şu anki oynayan yayını duraklatır.
+/durdur: Şu anki oynayan yayını duraklatır.
 
-/resume: Duraklatılan yayını tekrar başlatır.
+/devam: Duraklatılan yayını tekrar başlatır.
 
-/skip: Şu anki yayını atlar ve sıradaki parçayı çalmaya başlar.
+/atla: Şu anki yayını atlar ve sıradaki parçayı çalmaya başlar.
 
-/end veya /stop: Kuyruğu temizler ve mevcut yayını sonlandırır.
+/end veya /stop veya /son: Kuyruğu temizler ve mevcut yayını sonlandırır.
 
 /player: Etkileşimli bir oynatıcı paneli alır.
 
@@ -119,7 +119,7 @@ HELP_11 = """
 <b>v :</b> sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
 <b>force :</b> sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ.
 
-/play veya /vplay: İstenilen şarkıyı video sohbetinde başlatır.
+/play veya /vplay veya /oynat: İstenilen şarkıyı video sohbetinde başlatır.
 
 /playforce veya /vplayforce: Devam eden akışı durdurur ve istenilen şarkıyı başlatır.
 """
@@ -149,7 +149,7 @@ HELP_15 = """
 
 Sesli sohbetin oynatma hızını kontrol edebilirsiniz. [Sadece yönetici için]
 
-/speed veya /playback: Grup içindeki sesli oynatma hızını ayarlamak için kullanılır.
+/speed veya /hıztesti: Grup içindeki sesli oynatma hızını ayarlamak için kullanılır.
 /cspeed veya /cplayback: Kanalda sesli oynatma hızını ayarlamak için kullanılır.
 """
 
